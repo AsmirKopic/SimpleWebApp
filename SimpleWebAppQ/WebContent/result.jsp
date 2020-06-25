@@ -8,10 +8,11 @@
 <p>
 
 <%
-//Display correct answers
+//Display number of correct answers
 
 int correctAnsw = (Integer)request.getAttribute("answers");
 out.print("<br> Number of correct answers " + correctAnsw);
+
  %>
 
 </body>
